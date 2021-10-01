@@ -1,7 +1,7 @@
 # ConsulClick
 Sistema de Citas Medicas usando PHP, MySQL y Bootstrap.
 
-### Version 2.0
+### Version 1.0
 
 - Gestion de Pacientes, Medicos
 - Creacion de Citas: Asunto, Paciente, medico, Fecha, Hora, Enfermedad, Sintomas, Medicamentos, Costo
@@ -13,13 +13,17 @@ Sistema de Citas Medicas usando PHP, MySQL y Bootstrap.
 - Reportes por paciente, medico, rango de fecha, estado, tipo de pago
 - Descarga de reporte enformato word
 
+### Agradecimiento
+
+Parte de la reigenieria de software fue extraido de https://github.com/evilnapsis/bookmedik/
+
 ### Instalación
 
-1.- Copiar y descomprimir el archivo en la carpeta c:\xampp\htdocs, al final tendras una carpeta llamada “lb-admin”, a la cual accederas desde el navegador como -> http://127.0.0.1/lb-admin
-2.- Buscar el archivo schema.sql en lb-admin/schema.sql, una vez localizado copiar y pegar el contenido en una ventana de MySQL, PHPMyAdmin o MySQL WorkBench
-3.- En caso de ser necesario modificar el archivo C:\xampp\htdocs\lb-admin\core\controller\Database.php para los datos asociados al acceso a la base de datos.
+1.- Copiar y descomprimir el archivo en la carpeta c:\xampp\htdocs, al final tendras una carpeta llamada “ConsulClick”, a la cual accederas desde el navegador como -> http://127.0.0.1/consulclick o http://localhost/consulclick
+2.- Buscar el archivo schema.sql en consulclick/schema.sql, una vez localizado copiar y pegar el contenido en una ventana de MySQL, PHPMyAdmin o MySQL WorkBench
+3.- En caso de ser necesario modificar el archivo C:\xampp\htdocs\consulclick\core\controller\Database.php para los datos asociados al acceso a la base de datos.
 
-Login : http://localhost/lb-admin/
+Login : http://localhost/consulclick/
 Usuario: admin
 Password: admin
 
