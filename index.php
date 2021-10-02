@@ -18,7 +18,7 @@ ob_start();
 session_start();
 Core::$root="";
 
-Core::$debug_sql = true;
+//Core::$debug_sql = true;
 
 $lb = new Lb();
 $lb->start();
